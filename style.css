@@ -1,0 +1,29 @@
+body {
+	background-color: #e7796d;
+}
+.title {
+	font-size: 80px;
+	text-align: center;
+	color: white;
+}
+.card {
+	background-color: white;
+	width: 15%;
+	padding: 30px;
+	display: inline-block;
+}
+.card-title {
+	font-size: 40px;
+}
+.card-title,
+.card-subtitle,
+.card-list {
+	text-align: center;
+}
+
+.card-list {
+	list-style: none;
+}
+.card-item {
+	color: pink;
+}
