@@ -1,3 +1,24 @@
+#hidden-file {
+	display: none;
+}
+.hidden-box {
+	margin: 50px;
+	padding: 15px 16px;
+	width: 221px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 11px;
+
+	border: 2px solid #285193;
+	border-radius: 5px;
+
+	background: rgba(251, 251, 251, 0.3);
+
+	cursor: pointer;
+	/* opacity: 0.3; */
+}
 .box {
 	position: relative;
 
@@ -16,11 +37,6 @@
 }
 header {
 	height: 50vh;
-}
-h2 {
-	position: absolute;
-	z-index: 2;
-	margin: 0;
 }
 
 #message {
